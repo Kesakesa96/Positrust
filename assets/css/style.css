@@ -193,6 +193,12 @@ h6 {
   font-size: 10px;
 }
 
+h2 a {
+  font-weight: 700;
+  color: #1f2021;
+  text-transform: uppercase;
+}
+
 p {
   margin: 0;
 }
@@ -3165,6 +3171,10 @@ p.copyright {
 }
 
 @media screen and (max-width: 640px) {
+  
+.landing-hero {
+  background: url('../images/hero-bg/landing-2.jpg');
+}
   
   h1, .h1 {
     font-size: 40px;
